@@ -1,0 +1,16 @@
+.main-cards{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+   
+
+}
+
+.main-cards .card {
+    margin: 0 1rem 1.5rem; /* Adjust the gap between cards as needed */
+  }
+
+/* Optionally, add this to align the last row of cards to the center */
+.main-cards .d-flex.flex-wrap {
+    justify-content: center;
+  }

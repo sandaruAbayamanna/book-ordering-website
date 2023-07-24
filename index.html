@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Ordering Website</title>
+
+  <!-- importing the bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <header>
+    <h1> La La Land Bookshop</h1>
+    <div class="shopping-cart d-flex justify-content-end align-items-start">
+      <a href="cart.html" id="cart-link">
+        <img src="images/cart-fill.svg">
+      </a>
+        <span class="quantity">0</span>
+      
+    </div>
+
+
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+
+    <!-- simporting the slider -->
+    <div id="slider-container">
+      <object type="text/html" data="slider.html" width="100%" height="500px"></object>
+    </div>
+
+    <!-- importing cards -->
+      <div id="cart-container" >
+        <object type="text/html" data="cards.html" width="100%" height="1500px" ></object>
+      </div>
+     
+    </section>
+    <!-- Hero section content -->
+  </section>
+
+  <section class="book-list">
+    <!-- Book list content -->
+  </section>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+
+   <!-- Message element for "Item added to cart successfully" -->
+   <div class="message" id="message">Item added to cart successfully</div>
+
+
+<!-- Include the script file -->
+<script src="script.js"></script>
+
+</body>
+</html>
